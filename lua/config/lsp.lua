@@ -12,4 +12,5 @@ end
 
 vim.lsp.enable({
 	"luals",
+	"tslsp",
 })

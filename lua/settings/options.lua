@@ -7,3 +7,5 @@ vim.opt.shiftwidth = 2
 vim.opt.cursorline = true
 
 vim.opt.clipboard:append("unnamedplus")
+
+vim.opt.swapfile = false

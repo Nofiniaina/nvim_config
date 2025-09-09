@@ -23,12 +23,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
 			vim.keymap.set("n", "gi", vim.lsp.buf.implementation, {})
 		end
 
-		if client:supports_method("textDocument/completion") then
-			vim.lsp.completion.enable(true, client.id, args.buf, {
-				autotrigger = true,
-			})
-		end
-
 		if client:supports_method("textDocument/codeAction") then
 			vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
 		end

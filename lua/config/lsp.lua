@@ -13,4 +13,6 @@ end
 vim.lsp.enable({
 	"luals",
 	"tslsp",
+	"pyright",
+	"intelephense",
 })

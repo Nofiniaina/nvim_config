@@ -15,4 +15,5 @@ vim.lsp.enable({
 	"tslsp",
 	"pyright",
 	"intelephense",
+	"emmet",
 })

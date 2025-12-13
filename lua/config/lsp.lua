@@ -1,0 +1,13 @@
+vim.lsp.enable({
+  "lua_ls",
+  "html",
+  "emmet_ls",
+  "cssls",
+  "tailwindcss",
+  "ts_ls",
+  "pyright",
+  "intelephense",
+  "twiggy_language_server",
+  "jsonls",
+  "yamlls"
+})

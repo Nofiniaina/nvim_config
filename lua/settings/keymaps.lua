@@ -17,6 +17,8 @@ vim.keymap.set('n', '<leader>fh', function()
   require('telescope.builtin').help_tags()
 end, { desc = 'Telescope help tags' })
 
--- Ouvrir / Fermer Neo-tree 
+-- Ouvrir / Fermer Neo-tree
 vim.keymap.set('n', '<leader>e', ':Neotree toggle filesystem left<CR>', { desc = "Toggle Neo-tree" })
 
+-- Tape ,, rapidement → devient <> avec curseur au milieu
+vim.keymap.set("i", ",,", "<><Left>", { desc = "Insérer paire <>" })

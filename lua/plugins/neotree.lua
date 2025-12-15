@@ -34,11 +34,10 @@ return {
             hide_gitignored = false,
             hide_by_name = {
               ".git",
-              ".github"
             }
           },
         },
-        vim.api.nvim_set_hl(0, "NeoTreeGitIgnored",   
+        vim.api.nvim_set_hl(0, "NeoTreeGitIgnored",
           { fg = "#808080", italic = true }
         ) -- grey + italic
       })

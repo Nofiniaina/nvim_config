@@ -27,7 +27,8 @@ return {
           "dot",
           "sql",
           "php",
-          "twig"
+          "twig",
+          "rust"
         },
         highlight = { enable = true },
         indent = { enable = true }

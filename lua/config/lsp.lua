@@ -9,5 +9,6 @@ vim.lsp.enable({
   "intelephense",
   "twiggy_language_server",
   "jsonls",
-  "yamlls"
+  "yamlls",
+  "rust_analyzer"
 })

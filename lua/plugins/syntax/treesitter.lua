@@ -3,6 +3,7 @@ return {
     "nvim-treesitter/nvim-treesitter",
     branch = 'master',
     lazy = false,
+    event = { "BufReadPost", "BufNewFile" },
     build = ":TSUpdate",
     config = function()
       local configs = require("nvim-treesitter.configs")
@@ -28,11 +29,12 @@ return {
           "sql",
           "php",
           "twig",
-          "rust"
+          "rust",
+          "go"
         },
+        incremental_selection = { enable = true },
         highlight = { enable = true },
-        indent = { enable = true }
-
+        indent = { enable = true },
       })
     end
   }

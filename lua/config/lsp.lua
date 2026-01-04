@@ -1,3 +1,16 @@
+vim.lsp.config["emmet_ls"] = {
+  cmd = { "emmet-ls", "--stdio" },
+  filetypes = {
+    "html",
+    "css",
+    "scss",
+    "javascriptreact",
+    "typescriptreact",
+    "twig",
+  },
+}
+
+
 vim.lsp.enable({
   "lua_ls",
   "html",
@@ -10,5 +23,6 @@ vim.lsp.enable({
   "twiggy_language_server",
   "jsonls",
   "yamlls",
-  "rust_analyzer"
+  "rust_analyzer",
+  "gopls"
 })

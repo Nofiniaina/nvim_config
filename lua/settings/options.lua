@@ -1,5 +1,9 @@
-vim.opt.number = true
-vim.opt.expandtab = true
-vim.opt.tabstop = 2
-vim.opt.softtabstop = 2
-vim.opt.shiftwidth = 2
+local opt = vim.opt
+
+opt.number = true
+opt.expandtab = true
+opt.tabstop = 2
+opt.softtabstop = 2
+opt.shiftwidth = 2
+opt.swapfile = false
+opt.fileencoding = "utf-8"

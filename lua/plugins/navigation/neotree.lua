@@ -11,7 +11,7 @@ return {
     config = function()
       require("neo-tree").setup({
         window = {
-          width = 25,
+          width = 30,
         },
         default_component_configs = {
           git_status = {

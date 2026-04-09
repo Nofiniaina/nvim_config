@@ -12,6 +12,7 @@ vim.lsp.config["emmet_ls"] = {
 
 
 vim.lsp.enable({
+  "angularls",
   "lua_ls",
   "html",
   "emmet_ls",
@@ -22,6 +23,7 @@ vim.lsp.enable({
   "intelephense",
   "twiggy_language_server",
   "jsonls",
+  "java_language_server",
   "yamlls",
   "rust_analyzer",
   "gopls"

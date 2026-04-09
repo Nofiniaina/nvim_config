@@ -4,10 +4,11 @@ return {
   config = function()
     require("conform").setup({
       formatters_by_ft = {
-        lua = { "stylua"},
+        lua = { "stylua" },
         python = { "isort", "black" },
         rust = { "rustfmt" },
         javascript = { "prettierd", "prettier" },
+        php = { "php-cs-fixer" }
       },
       lsp_format = "fallback",
       format_on_save = {
